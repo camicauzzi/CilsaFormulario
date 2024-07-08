@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container" id="formContainer">
+        <form id="myForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+            
+            <label for="pais">País de Residencia:</label>
+            <select id="pais" name="pais" required>
+                <option value="Argentina">Argentina</option>
+                <option value="España">España</option>
+                <option value="México">México</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Chile">Chile</option>
+                <option value="Perú">Perú</option>
+                <option value="Otro">Otro</option>
+            </select>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <button id="style1">Estilo 1</button>
+        <button id="style2">Alto Contraste</button>
+        <div id="message"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
