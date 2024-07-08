@@ -15,7 +15,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(17, 41, 175, 0.1);
 }
 
 .form-container label {
@@ -45,28 +45,28 @@ body {
 }
 
 #style1 {
-    background-color: #007bff;
+    background-color: #e41787;
     color: white;
 }
 
 #style2 {
-    background-color: #000;
+    background-color: #e41787;
     color: yellow;
 }
 
 #message {
     margin-top: 20px;
     font-size: 18px;
-    color: green;
+    color: rgb(128, 0, 75);
 }
 
 .style1 {
     background-color: #ffffff;
-    color: #000000;
+    color: #e41787;
 }
 
 .style2 {
-    background-color: #000000;
+    background-color: #e41787;
     color: #ffff00;
 }
 
@@ -79,6 +79,11 @@ body {
 .style2 button {
     background-color: #333333;
     color: #ffffff;
+}
+
+.style2 select,
+.style2 input[type="date"] {
+    color: #e41787;
 }
 
 .style2 select,
